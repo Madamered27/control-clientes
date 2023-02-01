@@ -11,6 +11,7 @@ import { RegistroComponent } from './componentes/registro/registro.component';
 import { ConfiguracionComponent } from './componentes/configuracion/configuracion.component';
 import { NoEncontradoComponent } from './componentes/no-encontrado/no-encontrado.component';
 import { PiePaginaComponent } from './componentes/pie-pagina/pie-pagina.component';
+import { TableroComponent } from './componentes/tablero/tablero.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { PiePaginaComponent } from './componentes/pie-pagina/pie-pagina.componen
     RegistroComponent,
     ConfiguracionComponent,
     NoEncontradoComponent,
-    PiePaginaComponent
+    PiePaginaComponent,
+    TableroComponent
   ],
   imports: [
     BrowserModule,
